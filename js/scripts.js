@@ -1,18 +1,19 @@
-let userInputNum = 45
+let userInputNum = 45;
 let countNum = 0;
 const countList = [];
 
-for (let i = 0; i <= userInputNum - 1; i++) {
-    countList.push(countNum++); 
+for (let i = 0; i <= userInputNum; i++) {
+  countList.push(countNum++);
 }
 
 let beepList = [];
 
-countList.forEach(function (numW1) {
-    if (countList.includes(1)) {
-        beepList.push("beep");
-    } else {
-        beepList.push(numW1);
-    }
-    console.log(beepList)
+let forEachList = countList.map((el) => {
+  return el.toString();
 });
+let searchNum = forEachList.map((el) => {
+  return el.includes("1");
+});
+// console.log(beepList);
+// console.log(countList);
+// console.log(forEachList);
