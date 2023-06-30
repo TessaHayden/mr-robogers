@@ -19,15 +19,27 @@ for (let i = 0; i <= userInputNum; i++) {
 let forEachList = countList.map((el) => {
   return el.toString();
 });
-let searchNum = forEachList.map((el) => {
+
+let searchNum1 = forEachList.map((el) => {
     if (el.includes("1") === true) {
-        beepList.push("Beep");
-    } else if (el.includes("1") === false) {
-        beepList.push(el);
-     }
+        beepList.push("beep")
+    } else {
+        beepList.push(el)
+    }
 });
 
-// console.log(beepList);
+let searchNum2 = forEachList.forEach((el) => {
+    if (el.includes("2") === true) {
+        beepList.push("boop")
+    }
+})
+
+let searchNum3 = forEachList.forEach((el) => {
+    if (el.includes("3") === true) {
+        beepList.push("Won't you be my neighbor?")
+    }
+})
+console.log(beepList);
 // console.log(countList);
 // console.log(forEachList);
-console.log(searchNum);
+// console.log(searchNum);
