@@ -13,7 +13,7 @@ function replaceNum() {
     return el.toString();
   });
 
-  let searchNum1 = forEachList.map((el) => {
+  forEachList.map((el) => {
     if (el.includes("3" || "2") === true) {
       beepList.push("Won't you be my neighbor");
     } else if (el.includes("2") === true) {

@@ -30,6 +30,28 @@ https://github.com/TessaHayden/mr-robogers
 
 The program does not account for negatives or decimals.
 
+#### TDD:
+> Describe: replaceNum()
+>
+>Test: "It iterates from 0 to user's inputed number."
+>Code: 
+>let userInputNum = "6"
+>let countNum = 0;
+>Expected Output: [0, 1, 2, 3, 4, 5, 6];
+>
+>Test: "It should replace 1 with 'beep', 2 with 'boop' & 3 with 'Won't you be my neighbor?'"
+>Code:
+>forEachList.map();
+>beepList.push();
+>Expected Output: [0, beep, boop, "Won't you be my neighbor?"]
+>
+>Test: "It should use logic to determine substitution precedence for 1, 2 & 3."
+>Code:
+>if (el.includes("3" || "2") === true);
+>else if (el.includes("2"));
+>else if (el.includes("1") === true);
+>Expected Output: [..., 9, "beep", "beep", "boop", "Won't you be my neighbor?"]
+
 MIT
 copyright (c) _2023_ _Tessa Hayden_
 
@@ -38,3 +60,5 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
